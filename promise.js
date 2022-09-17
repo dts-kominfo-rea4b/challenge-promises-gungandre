@@ -21,9 +21,9 @@ const promiseOutput = async (emosi) => {
     });
 
     if (emosi === "marah") {
-      console.log("marah :", marah);
+      return marah;
     } else {
-      console.log("tidak marah :", tidakMarah);
+      return tidakMarah;
     }
   } catch (err) {
     console.log(err);
